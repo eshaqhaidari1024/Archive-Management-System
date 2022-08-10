@@ -1,0 +1,14 @@
+@media print {
+
+    body{
+
+        background-color: #0c0c0c;
+    }
+    #print-area{
+
+        background-color: blue;
+    }
+    #title{
+        color: #0d3625;
+    }
+}

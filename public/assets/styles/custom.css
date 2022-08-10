@@ -1,0 +1,258 @@
+
+
+.container{
+    width: 100% !important;
+}
+
+
+.space{
+
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+#padd{
+
+    position: relative;
+    top: 23px;
+
+
+}
+.pagination {
+
+    display: flex !important;
+    justify-content: center !important;
+    align-content: center !important;
+    align-items: center !important;
+    float: none !important;
+}
+.ui-menu .ui-menu-item{
+    background-color: #f7f7f7 !important;
+}
+#fa-bottom{
+    margin-bottom: 23px;
+}
+
+.select2-container--default .select2-selection--single {
+    line-height: 24px !important;
+    padding: 9px 14px !important;
+    height: 45px !important;
+    border-color: #ccd1d9 !important;
+}
+#pr_ul li{
+    list-style-type: none;
+    display: inline-block;
+}
+#pr_ul li.pull-left{
+
+    margin-left: 12px;
+}
+
+
+#pr_add_row li{
+
+    list-style-type: none;
+    display: inline-block;
+    float: left;
+    margin-bottom: 12px;
+    margin-left: 8px;
+
+
+}
+#ul-top li{
+    list-style-type: none;
+    display: inline-block;
+    float: left;
+    margin-left: 12px;
+    margin-bottom: 12px;
+}
+.bk{
+    font-size: 16px;
+
+}
+#tutia-backup{
+    margin-bottom: 10px;
+
+}
+.fixed-navbar{
+
+    background-color: #1d5d7b !important;
+}
+.main-menu{
+    /*background-color: #1d5d7b !important;*/
+}
+.logo{
+    background-color: #1d5d7b  !important;
+}
+.menu-mobile-button{
+    background-color: #407b92  !important;
+}
+.navigation .menu>li.current>a{
+    background-color: #407b92 !important;
+}
+
+
+.d-flex{
+
+    display: flex;
+}
+.align-items-center{
+    align-items: center;
+    justify-content: center;
+}
+.a-title {
+    display: block !important;
+    width: 100%;
+    height: auto;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 700;
+  }
+
+.dv-container {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    background-color: blue;
+    position: relative;
+   
+    width: 180px;
+    height: 120px;
+    border-radius: 5px;
+
+    
+}
+
+
+#dv-1{
+    background-color:#47cbe0;
+}
+#dv-2{
+
+    background-color: #00e2e2;
+}
+#dv-3{
+    background-color: #1d5d7b ;
+}
+#dv-4{
+    background-color: #dc826d;
+}
+
+
+.overlay .text{
+
+    color:#ffffff;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+.dv-container:hover .overlay {
+    height: 100%;
+    
+   
+  }
+  .dv-container:hover .a-title{
+      opacity: 0;
+      transition: .5s ease;
+  }
+  
+
+
+
+#print_button, #search_icon {
+    margin-right: 10px;
+    font-size: 21px;
+    color: #2c7a90;
+}
+@media print {
+    body * {
+        visibility: hidden;
+    }
+    #title, #total,#example, table * {
+        visibility: visible;
+    }
+    #title {
+        position: relative;
+        left: 0;
+        top: -100px;
+    }
+
+
+
+    #example{
+        top: -130px !important;
+        position: relative;
+    }
+    #content-display #operations{
+        display: none;
+    }
+    #operations_title, #footer{
+        display: none;
+    }
+
+}
+
+/* Active Inactive user */
+.material-switch > input[type="checkbox"] {
+    display: none;
+}
+
+.material-switch > label {
+    cursor: pointer;
+    height: 0px;
+    position: relative;
+    width: 40px;
+}
+
+.material-switch > label::before {
+    background: rgb(0, 0, 0);
+    box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+    content: '';
+    height: 16px;
+    margin-top: -8px;
+    position:absolute;
+    opacity: 0.3;
+    transition: all 0.4s ease-in-out;
+    width: 40px;
+}
+.material-switch > label::after {
+    background: rgb(255, 255, 255);
+    border-radius: 16px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+    content: '';
+    height: 24px;
+    left: -4px;
+    margin-top: -8px;
+    position: absolute;
+    top: -4px;
+    transition: all 0.3s ease-in-out;
+    width: 24px;
+}
+.material-switch > input[type="checkbox"]:checked + label::before {
+    background: inherit;
+    opacity: 0.5;
+}
+.material-switch > input[type="checkbox"]:checked + label::after {
+    background: inherit;
+    left: 20px;
+}
+/* end Active Inactive */

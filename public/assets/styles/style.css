@@ -1,0 +1,103 @@
+/*.form-control{*/
+
+    /*direction: ltr !important;*/
+/*}*/
+
+.border-bottom-devider{
+
+    border-bottom: 1px solid white;
+
+}
+
+/* The Modal (background) */
+.drop-modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 100; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.drop-modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 60%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.drop-close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.drop-close:hover,
+.drop-close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+
+.form-group.required .control-label:after {
+    content: " *";
+    color: red;
+    font-weight: bold;
+}
+
+.loading {
+    background: lightgoldenrodyellow url('../images/processing.gif') no-repeat center 65%;
+    height: 80px;
+    width: 100px;
+    position: fixed;
+    border-radius: 4px;
+    left: 50%;
+    top: 50%;
+    margin: -40px 0 0 -50px;
+    z-index: 2000;
+    display: none;
+}
+.sweet-alert , .sweet-alert .sa-button-container button {
+
+    font-family: SahelFont !important;
+
+}
+
+.load{
+    background: url("../plugin/x-editable/bootstrap3-editable/img/loading.gif") no-repeat;
+}
+
+.customer_id_div label{
+
+    display: block !important;
+}
+.select2{
+    width: 100% !important;
+}
+
+/*.nav#sidebar > li > ul {
+    margin-left: 25px;
+}
+.nav#sidebar > li > a {
+    color: lightyellow;
+    padding: 7px;
+}
+.nav#sidebar > li > a:hover,
+.nav#sidebar > li > a:focus,
+.nav#sidebar > li.active > a {
+    text-decoration: none;
+    background-color:darkgoldenrod;
+    border-radius: 0px;
+}*/
+
+

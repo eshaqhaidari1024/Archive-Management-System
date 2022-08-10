@@ -1,0 +1,2 @@
+<a href="{{route('management.user.edit',$user->id)}}">Edit<i class="glyphicon glyphicon-edit"></i></a>
+<a href="{{route('management.user.delete',$user->id)}}" >Delete<i class="glyphicon glyphicon-trash"></i></a>
